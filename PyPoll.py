@@ -87,13 +87,13 @@ print(winning_candidate_summary)
 
 
 # Print the total votes
-print(total_votes)
+# print(total_votes)
 
 # Print candidate list
-print(candidate_options)
+# print(candidate_options)
 
 # Print candidates vote dictionary
-print(candidate_votes)
+# print(candidate_votes)
 
 # Close the file.
 election_data.close()
