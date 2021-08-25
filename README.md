@@ -24,7 +24,7 @@ Our [program](/PyPoll_Challenge.py) was able to determine that the dataset conta
 
 ### 2. Which county had the largest number of votes?
 
-- Of the three counties analyzed, **Denver county** has the most number of voters at **306,055** which is **82.8%** of the total.
+- Of the three counties analyzed, **Denver county** had the highest voter turnout at **306,055** which is **82.8%** of the total.
 
 ### 3. Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
 
@@ -41,4 +41,4 @@ Our program is also able to determine the number of candidates in the election, 
 
 ## Election-Audit Summary:
 
-The Election analysis program has been written with a broad spectrum of future purposes in mind. By taking any data set of election data the program can be told where to read data from and what variables that data can be extracted to. This can be done by changing only a few variables like **candidate_name = row[2]** to read from a new data set's columns or locations. The program is written in such a way that there is capacity to sort and add the data of every county in Colorado because the **county_options= []** list can be added to automatically for every county name that is read. The same can be done with the **candidate_options = []** list for every candidate name that is read. The dynamic programming makes this program easily applicable for future use with minimal need to be altered. 
+The Election analysis program has been written with a broad spectrum of future purposes in mind. By taking any data set of election data, the program can be told from where to read data and to which variables that data can be extracted to. This can be done by changing only a few variables like **candidate_name = row[2]** to read from a new data set's columns or locations. The program is written in such a way that there is capacity to sort and add the data of every county in Colorado because the **county_options= []** list can be added to automatically for every county name that is read. The same can be done with the **candidate_options = []** list for every candidate name that is read. The dynamic programming makes this program easily applicable for future use with minimal need to be altered. 
